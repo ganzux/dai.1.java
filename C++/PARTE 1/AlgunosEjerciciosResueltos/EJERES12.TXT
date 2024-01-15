@@ -1,0 +1,107 @@
+	       Cap¡tulo 12 "Estructura de un programa en C"
+			   Ejercicios resueltos
+
+
+      12.1. Hacer un programa que calcule el  rea de un trapecio, 
+	    introduciendo por teclado los valores de las bases y su 
+	    altura.
+				A = (B + b) * a / 2
+	     
+	   SOLUCION:
+
+		#include <stdio.h>
+		main()
+		{      
+			float B, b, A, a;               
+			
+			printf("Introduce base mayor: ");       
+			scanf("%f",&B); 
+			printf("Introduce base menor: ");       
+			scanf("%f",&b); 
+			printf("Introduce altura: ");   
+			scanf("%f", &a);        
+			A=((B+b)*a)/2;    
+			printf("El valor del  rea es: %f\n", A);
+		}
+
+
+      12.2. Hacer un programa que calcule el inter‚s simple (tiempo en 
+	    d¡as) dado el capital, el r‚dito y el tiempo por teclado.              
+
+						 c*r*t
+			  i * 36000 = c*r*t, i = -----
+						 36000
+	     SOLUCION:
+		
+		#include<stdio.h>
+		main()
+		{
+			float c, r, i;
+			int t;
+
+			printf("Introduce capital: ");
+			scanf("%f", &c);
+			printf("Introduce r‚dito: ");
+			scanf("%f", &r);
+			printf("n§ de d¡as: ");
+			scanf("%d", &t);
+			i=c*r*t/36000;
+			printf("El tipo de inter‚s es: %f\n",i);
+		}
+
+      12.3. Escribir un programa que lea el valor correspondiente a una 
+	    distancia en millas marinas y las escriba expresadas en metros.
+
+			 1 Milla, equivale a 1.852 metros
+
+	    SOLUCION:
+
+		#include<stdio.h>
+		main()
+		{
+			int Dmillas, Dmetros;
+
+			printf("Distancia en millas: ");
+			scanf("%d", &Dmillas);
+			Dmetros=Dmillas*1852;
+			printf("Distancia en metros:%d\n", Dmetros);
+		}
+
+      12.4. Hacer un programa que calcule y muestre en pantalla el 
+	    porcentaje descontado en una compra a partir del precio de la 
+	    tarifa y el precio pagado.
+
+	    SOLUCION:
+
+		#include<stdio.h>
+		main()
+		{
+			float Tarifa, Precio, Dto, Pd;
+
+			scanf("%f", &Tarifa);
+			scanf("%f", &Precio);
+			Dto=Tarifa-Precio;
+			Pd=Dto*100/Tarifa;
+			printf("Porcentaje de descuento %f", Pd);
+		}
+
+      12.5. Escribir un programa que calcule la velocidad de una pelota de 
+	    tenis en Km/hora, conociendo la distancia recorrida en metros 
+	    y el tiempo empleado en segundos para recorrer dicha distancia.
+
+	    SOLUCION:
+
+		#include<stdio.h>
+		main()
+		{
+			float Sm, Skm, Tsg, Th, V;
+
+			printf("Espacio en metros: ");
+			scanf("%f", &Sm);
+			Skm=Sm/1000;
+			printf("Tiempo en segundos: ");
+			scanf("%f", &Tsg);
+			Th=Tsg/3600;
+			V=Skm/Th;
+			printf("Velocidad = %f km/hora.\n", V);
+		}

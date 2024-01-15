@@ -1,0 +1,40 @@
+// 6. Programa que pida un numero y muestre por pantalla el mismo pero en orden
+// inverso. Si el usuario facilita el numero 4632, el programa devolvera la
+// secuencia 2, 3, 6, 4.
+
+#include <stdio.h>
+
+void Digit(int num)
+{
+int auxiliar;
+
+return
+}
+
+void main()
+{
+int num;
+printf("Introduce un numero para darle la vuelta: ");
+scanf("%d",&num);
+
+printf("\n\n\nDamos la vuelta a %d y nos queda: %d",num,Digit(num));
+}
+
+
+
+
+int digitPos(int pos, int num)
+{
+
+int aux,cociente,resto,max=1;
+
+  cociente=num;
+  for (aux=0;aux<=pos;aux++)
+	  {
+		resto=cociente%10;
+		cociente=cociente/10;
+	  }
+if ((resto==0 && cociente==0) || pos<0) resto=-1;
+
+return resto;
+}

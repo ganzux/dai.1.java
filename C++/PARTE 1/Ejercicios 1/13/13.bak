@@ -1,0 +1,31 @@
+#include <stdio.h>
+
+/* La Funcion Divisores devuelve la suma de los divisores del numero leido.
+Utilizamos un acumulador llamado suma y una variable auxiliar que recorre
+con un bucle for todas las posiciones desde el numero 1 hasta el valor especifi-
+cado-1, ya que no queremos que este se sume. */
+
+int Divisores(int numero)
+{
+int suma=0,aux;
+
+for (aux=numero-1;aux>0;aux--)
+		if (numero%aux==0)
+				suma=suma+aux;
+return suma;
+}
+
+/* Cuerpo del programa: Bucle desde 2 hasta 100 que comprueba si el contador (n)
+es igual a la suma de sus divisores, o sea, comprueba si el numero es perfecto.
+Si es asi, lo imprime en pantalla.*/
+
+void main()
+{
+int n;
+
+	for (n=2;n<100;n++)
+		if (n==Divisores(n))
+               printf("%d, ",n);
+
+
+}

@@ -1,0 +1,23 @@
+build.menu.1[0]=com.borland.jbuilder.build.ProjectBuilder$ProjectBuildAction;make
+build.menu.2[0]=com.borland.jbuilder.build.ProjectBuilder$ProjectBuildAction;rebuild
+content.layout.xml.[0]=<?xml version="1.0" encoding="UTF-8"?>`r`n<project-layout>`r`n  <tab_container selected_index="3">`r`n    <tab node_name="src/guia1/Circulo.java"/>`r`n    <tab node_name="src/guia1/Cuadrado.java"/>`r`n    <tab node_name="src/guia1/Dibujar.java"/>`r`n    <tab node_name="src/guia1/Figura.java"/>`r`n    <tab node_name="src/guia1/SinTitulo1.java"/>`r`n    <tab node_name="src/guia1/Visualizar.java"/>`r`n  </tab_container>`r`n</project-layout>`r`n
+debug.NoTracingClasses.1[0]=16 java.lang.Object1  1 -1
+debug.NoTracingClasses.2[0]=21 java.lang.ClassLoader1  1 -1
+debug.NoTracingClasses.3[0]=16 java.lang.String1  1 -1
+debug.SplitThreadsAndDataView[0]=0
+history.files.active[0]=src/guia1/Figura.java
+history.files.open.1[0]=src/guia1/Circulo.java,F;8,203
+history.files.open.2[0]=src/guia1/Cuadrado.java,F;1,196
+history.files.open.3[0]=src/guia1/Dibujar.java,F;1,0
+history.files.open.4[0]=src/guia1/Figura.java,F;102,2299
+history.files.open.5[0]=src/guia1/SinTitulo1.java,F;1,195
+history.files.open.6[0]=src/guia1/Visualizar.java,F;1,0
+import.optimize.legacyPropertiesRead[0]=1
+packagebrowser.lastClassName[0]=guia1.SinTitulo1
+sys.Author[0]=
+sys.DefaultPackage[0]=guia1
+sys.ReopenHistory.1[0]=src/guia1/Visualizar.java
+sys.ReopenHistory.2[0]=src/guia1/Interfaz1.java
+sys.ReopenHistory.3[0]=src/guia1/SinTitulo2.java
+sys.ReopenHistory.4[0]=src/guia1/ppal.java
+wizard.package.package_history.1[0]=guia1

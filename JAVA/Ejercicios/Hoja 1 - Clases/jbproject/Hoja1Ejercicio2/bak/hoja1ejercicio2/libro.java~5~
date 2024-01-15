@@ -1,0 +1,43 @@
+package hoja1ejercicio2;
+
+/**
+ * <p>Título: </p>
+* <p>Descripción: 2. Defina una clase libro que pueda ser utilizada para
+* representar los libros que hay en una biblioteca. Suponga que cada libro tiene
+* los siguientes atributos:
+•	Título
+•	Autor
+•	Año de publicación
+•	Editorial
+Escriba un método main donde creará dos objetos de la clase libro, y al final,
+muestre los datos de cada uno de ellos.
+</p>
+ * <p>Copyright: Copyright (c) 2006</p>
+ * <p>Empresa: </p>
+ * @author sin atribuir
+ * @version 1.0
+ */
+
+public class libro {
+/* Atributos privados */
+private String titulo;
+private String autor;
+private int publicado;
+private String editorial;
+
+// GETTERS show by screen
+public void GetTitulo(){
+System.out.println(+titulo);
+};
+public void GetAutor(){};
+public void GetPublicado(){};
+public void GetEditorial(){};
+
+// SETTERS set the value of the variable
+
+// CONSTRUCTOR
+  public libro() {}
+
+
+
+}

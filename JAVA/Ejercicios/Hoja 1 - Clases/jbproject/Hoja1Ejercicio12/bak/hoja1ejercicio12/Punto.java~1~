@@ -1,0 +1,18 @@
+package hoja1ejercicio12;
+
+/**
+ * <p>Título: </p>
+ * <p>Descripción: </p>
+ * <p>Copyright: Copyright (c) 2006</p>
+ * <p>Empresa: </p>
+ * @author sin atribuir
+ * @version 1.0
+ */
+
+public class Punto {
+// Atributes
+  private double x;
+  private double y;
+// Constructor
+  public Punto() {}
+}

@@ -1,0 +1,22 @@
+package hoja1ejercicio4;
+
+/**
+ * <p>Título: </p>
+ * <p>Descripción: </p>
+ * <p>Copyright: Copyright (c) 2006</p>
+ * <p>Empresa: </p>
+ * @author sin atribuir
+ * @version 1.0
+ */
+
+public class ppal {
+
+public static void main(String[] args) {
+
+circulo micirculo = new circulo(565);
+
+System.out.println("El Area de un circulo de radio "+micirculo.GetRadio()+" es "+micirculo.CalcularArea());
+System.out.println("El Permímetro de un circulo de radio "+micirculo.GetRadio()+" es "+micirculo.CalcularPerimetro());
+  }
+
+}

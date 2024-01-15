@@ -1,0 +1,42 @@
+package hoja1ejercicio13;
+import java.io.*;
+
+/**
+ * <p>Título: </p>
+ * <p>Descripción: </p>
+ * <p>Copyright: Copyright (c) 2006</p>
+ * <p>Empresa: </p>
+ * @author sin atribuir
+ * @version 1.0
+ */
+
+public class Principal {
+
+  public static void main(String[] args) throws Exception {
+  String opcion;
+  BufferedReader in = new BufferedReader(new InputStreamReader(System.in));
+  Monedero cartera = new Monedero(100);
+  int valor;
+  do{
+      System.out.println("TU CARTERA\n1. Sacar\n2. Meter\n3.Ver\n4.Salir");
+      opcion = in.readLine();
+      valor = Integer.parseInt(opcion);
+
+      switch (valor){
+        case 1:
+
+          break;
+
+        case 2:
+
+          break;
+
+        case 3:
+          System.out.println("Su saldo es "+cartera.consultarSaldo());
+          break;
+      }//case
+    }while ( valor != 4 );//do
+
+  }//main
+
+}//class

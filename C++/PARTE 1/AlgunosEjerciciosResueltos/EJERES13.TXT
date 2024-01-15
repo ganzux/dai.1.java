@@ -1,0 +1,158 @@
+		    Cap¡tulo 13 "Estructuras de control"
+			    Ejercicios resueltos
+
+
+      13.1. Hacer un programa que lea 200 n£meros y determine si cada 
+	    n£mero le¡do est  comprendido en el siguiente intervalo, 
+	    mostrando la palabra "Cierto" en caso afirmativo y "Falso" 
+	    en caso contrario.
+
+			El intervalo es [35-75].
+
+	    SOLUCION:
+
+		#include <stdio.h>
+		main()
+		{
+			int c, n;
+			c = 0;
+			do
+			{
+				c++;
+				scanf("%d", &n);
+				if(n >= 35 && n <= 75)
+					printf("Cierto\n");
+				else
+					printf("Falso\n");
+			}while(c<200);
+		}
+
+      13.2. Hacer un programa que calcule la suma de los 5 primeros 
+	    n£meros pares y el producto de los 5 primeros n£meros 
+	    impares simult neamente.
+
+	    SOLUCION:
+
+		#include <stdio.h>
+		main()
+		{
+			int sp, pi, c, Sw;
+
+			sp = 0;
+			pi = 1;
+			c = 0;
+			Sw = 0;
+			do
+			{
+				c++;
+				if(!Sw)
+				{
+					pi *= c;
+					Sw = 1;
+				}
+				else
+				{
+					sp += c;
+					Sw = 0;
+				}
+			}while(c<10);
+			printf("Suma = %d, Producto = %d\n",sp, pi);
+		}
+
+      13.3. Escribir un programa que calcule la potencia de un n£mero 
+	    dado el valor de su base y su exponente.
+
+	    SOLUCION:
+
+		#include <stdio.h>
+		main()
+		{
+			int pot, c, base, exp;
+
+			pot = 1;
+			c = 1;
+			scanf("%d", &base);
+			scanf("%d", &exp);
+			while(c<=exp)
+			{
+				pot *= base;
+				c++;
+			}
+			printf("%d\n",pot);
+		}
+
+      13.4. Hacer un programa que escriba la tabla de multiplicar de un 
+	    n£mero introducido por teclado.
+
+	    SOLUCION:
+
+		#include <stdio.h>
+		main()
+		{
+			int n, c, p;
+
+			scanf("%d", &n);
+			for(c=1; c<=10; c++)
+			{
+				p = c*n;
+				printf("%d x %d = %d\n", c, n, p);
+			}
+		}
+									   
+      13.5. Escribir un programa que lee n£meros y escribe cu ntos n£meros 
+	    positivos y negativos se han le¡do. La finalizaci¢n de la 
+	    entrada de datos se realiza por la respuesta al siguiente 
+	    mensaje "¨Terminar S/N?", escrito despu‚s de introducir cada 
+	    n£mero.
+
+	    SOLUCION:
+
+		#include <stdio.h>
+		main()
+		{
+			int p, n, num, resp;
+
+			p = 0;
+			n = 0;
+			do
+			{
+				scanf("%d", &num);
+				if(num > 0)
+					p++;
+				else
+					n++;
+				printf("¨Terminar S/N?");
+				while(getchar()!='\n');
+				resp = getchar();
+			}while(resp!='S');
+			printf("%d %d\n",p, n);
+		}
+
+      13.6. Hacer un programa que lea 'N' n£meros enteros (tanto positivos 
+	    como negativos) y muestre el mayor y el menor de los n£meros 
+	    le¡dos.
+
+	    SOLUCION:
+
+		#include <stdio.h>
+		main()
+		{
+			int j, n, mayor, menor, num;
+
+			j = 1;
+			scanf("%d", &n);
+			scanf("%d", &mayor);
+			menor = mayor;
+			do
+			{
+				scanf("%d", &num);
+				j++;
+				if(num > mayor)
+					mayor = num;
+				else
+					if(num < menor)
+						menor = num;
+			}while(j<n);
+			printf("Mayor = %d y Menor = %d\n",mayor,menor);
+		}
+

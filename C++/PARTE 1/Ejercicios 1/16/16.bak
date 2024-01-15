@@ -1,0 +1,14 @@
+#include <stdio.h>
+
+void main()
+{
+int num,auxiliar;
+
+printf("Introduce un numero: ");
+scanf("%d",&num);
+
+for (auxiliar=num-1;auxiliar>0;auxiliar--)
+		 num=num+auxiliar;
+
+printf("\n\n La suma hasta el 1 es: %d",num);
+}

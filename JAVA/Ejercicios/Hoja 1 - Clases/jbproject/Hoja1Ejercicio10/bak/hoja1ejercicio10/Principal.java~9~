@@ -1,0 +1,21 @@
+package hoja1ejercicio10;
+
+/**
+ * <p>Título: </p>
+ * <p>Descripción: </p>
+ * <p>Copyright: Copyright (c) 2006</p>
+ * <p>Empresa: </p>
+ * @author sin atribuir
+ * @version 1.0
+ */
+
+public class Principal {
+public static void main(String[] args) {
+int opcion=1;
+Radio dial = new Radio();                // dial será un objeto de clase Radio
+  do{
+    System.out.println("8=Subir\n5=Salir\n2=Bajar\nDial está en " +dial.getFrecuencia());
+
+  }while(opcion!=5);//do
+  }//main
+}//class

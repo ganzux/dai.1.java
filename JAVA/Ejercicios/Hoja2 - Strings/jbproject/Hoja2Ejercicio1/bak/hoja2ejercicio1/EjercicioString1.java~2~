@@ -1,0 +1,42 @@
+/*1. Crear una clase pública de nombre EjercicioString1 que contenga sólo al
+ método main y partiendo de la String
+ "En mi proxima vida, creere en la reencarnacion" declarada e inicializada como
+ variable primitiva, mostrar por consola lo siguiente:
+
+1.	Su longitud
+2.	El carácter asociado al índice 7
+3.	La subcadena "creere"
+4.	El índice que ocupa el carácter 'x'
+5.	La String transformada en mayúsculas
+6.	Por último, comprobar si el primer carácter de la String es 'E' y mostrar por consola un mensaje que lo indique.
+
+Salida Por consola:
+
+Longitud de la cadena: 46
+Indice 7 asociado al caracter r
+La subcadena generada desde 20 incluido hasta 26 excluido es creere
+El indice del caracter x es 9
+La cadena en mayusculas es: EN MI PROXIMA VIDA, CREERE EN LA REENCARNACION
+La String comienza por E             */
+
+
+package hoja2ejercicio1;
+
+/**
+ * <p>Título: </p>
+ * <p>Descripción: </p>
+ * <p>Copyright: Copyright (c) 2006</p>
+ * <p>Empresa: </p>
+ * @author sin atribuir
+ * @version 1.0
+ */
+
+public class EjercicioString1 {
+  public EjercicioString1() {
+  }
+  public static void main(String[] args) {
+
+String cadena="En mi proxima vida, creere en la reencarnacion";
+  }
+
+}

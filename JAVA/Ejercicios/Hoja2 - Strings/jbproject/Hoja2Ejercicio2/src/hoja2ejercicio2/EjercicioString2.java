@@ -1,0 +1,28 @@
+/* 2. Crear una clase pública de nombre EjercicioString2 que contenga sólo al
+ método main y que muestre por consola el número de veces que aparece la letra
+ "a" en la siguiente String "Mañana voy a irme a hacer un viaje al Caribe"
+
+ Salida Por consola:
+ La letra a aparece 9 veces */
+
+package hoja2ejercicio2;
+/**
+ * <p>Título: </p>
+ * <p>Descripción: </p>
+ * <p>Copyright: Copyright (c) 2006</p>
+ * <p>Empresa: </p>
+ * @author sin atribuir
+ * @version 1.0
+ */
+
+public class EjercicioString2 {
+  static String cadena="Mañana voy a irme a hacer un viaje al Caribe";
+  static public int numerodeveces=0,n;
+
+  public static void main(String[] args) {
+    for (n=0;n<cadena.length();n++)
+      if (cadena.charAt(n)=='a')
+        numerodeveces++;
+    System.out.println("La letra a aparece "+numerodeveces+" veces");
+  }//main
+}//class

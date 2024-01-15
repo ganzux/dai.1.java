@@ -1,0 +1,46 @@
+/*8. Escriba una clase que permita manejar números complejos;
+ defina métodos para las cuatro operaciones fundamentales */
+
+package hoja1ejercicio8;
+
+/**
+ * <p>Título: </p>
+ * <p>Descripción: </p>
+ * <p>Copyright: Copyright (c) 2006</p>
+ * <p>Empresa: </p>
+ * @author sin atribuir
+ * @version 1.0
+ */
+
+public class complejos {
+// Atributtes
+  private int r; // A Complex Number is definned by a Real part (r) and
+  private int i; // an Imaginary part (i). For Example 32 + 2i
+
+// Metodes
+
+  public int Suma(complejos a,complejos b){
+
+  }
+
+// Getters And Setters
+  public void SetR(int r){
+    this.r=r;
+  }
+  public void SetI(int i){
+  this.i=i;
+}
+  public int GetI(){
+    return i;
+  }
+  public int GetR(){
+    return r;
+  }
+// End Of Getters And Setters
+
+// Constructor
+  public complejos(int r, int i) {
+  this.r=r;
+  this.i=i;
+  }
+}

@@ -1,0 +1,45 @@
+package hoja2ejercicio6;
+import java.io.*;
+
+/**
+ * <p>Título: </p>
+ * <p>Descripción: </p>
+ * <p>Copyright: Copyright (c) 2006</p>
+ * <p>Empresa: </p>
+ * @author sin atribuir
+ * @version 1.0*/
+
+
+// Comenzamos la clase
+public class Principal {
+
+//MÉTODO MAIN
+public static void main(String[] args)throws Exception  {
+validaNumero();
+}//main
+
+//El siguiente método valida un numero
+private static void validaNumero()throws Exception {
+
+  int maximo=0,cantidad=0,numero=0;
+  double suma=0;
+  float media=0;
+
+  InputStreamReader isr = new InputStreamReader(System.in);
+  BufferedReader br = new BufferedReader (isr);
+
+  do
+  {
+     System.out.println("Por Favor, introduzca un número: ");
+    numero = Integer.parseInt(br.readLine());
+  suma+=numero;
+  cantidad++;
+  if (numero>maximo)
+    maximo=numero;
+  }while(numero>0);//do
+  System.out.println("El máximo valor es: "+maximo);
+  System.out.println("La media es: "+(suma/cantidad));
+  System.out.println("El sumatorio es: "+suma);
+  }//validaNumero
+
+}//class

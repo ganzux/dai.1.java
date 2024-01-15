@@ -1,0 +1,18 @@
+#include <stdio.h>
+
+void main()
+{
+int dividendo,divisor,cociente=0,resto=0;
+
+printf("¿Dividendo? "); scanf("%d",&dividendo);
+printf("¿Divisor?   "); scanf("%d",&divisor);
+resto=dividendo;
+	do{
+	  resto=resto-divisor;
+	  cociente++;
+	  }
+	while (resto>=divisor);
+
+printf("\n\n %d : %d",dividendo,divisor);
+printf("\n\nCociente: %d\nResto: %d",cociente,resto);
+}

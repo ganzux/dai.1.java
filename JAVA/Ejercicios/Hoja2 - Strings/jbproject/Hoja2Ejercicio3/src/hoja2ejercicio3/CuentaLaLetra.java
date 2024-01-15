@@ -1,0 +1,28 @@
+package hoja2ejercicio3;
+
+/**
+ * <p>Título: cuentaletras</p>
+ * <p>Descripción: Le pasas un string y un caracter y cuenta las veces q aparece</p>
+ * <p>Copyright: Copyright (c) 2006</p>
+ * <p>Empresa: </p>
+ * @author iTo
+ * @version 1.05
+ */
+
+public class CuentaLaLetra {
+
+  private String cadena="Mañana voy a irme a hacer un viaje al Caribe";
+  private char caracter;
+
+  public CuentaLaLetra(){
+  }
+
+  public int Cuenta(char caracter) {
+  int veces=0,n=0;
+
+  for (n=0;n<cadena.length();n++)
+    if (cadena.charAt(n)==caracter)
+      veces++;
+  return veces;
+  }
+}//class

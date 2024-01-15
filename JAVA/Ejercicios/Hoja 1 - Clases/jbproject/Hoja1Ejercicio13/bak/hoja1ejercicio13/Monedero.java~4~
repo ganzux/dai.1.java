@@ -1,0 +1,42 @@
+/* Defina una clase 'Monedero' que permita gestionar la cantidad
+   de dinero de que una persona dispone en un momento dado.
+
+   La clase deberá tener un constructor que permitirá crear un monedero con una
+   cantidad de dinero inicial y deberá definir un método para meter dinero en el
+   monedero, otro para sacarlo y finalmente, otro para consultar el disponible;
+   solo podrá conocerse la cantidad de dinero del monedero a través de este
+   último método. Por supuesto, no se podrá sacar más dinero del que haya
+   en un momento dado en el monedero. */
+
+package hoja1ejercicio13;
+
+/**
+ * <p>Título: </p>
+ * <p>Descripción: </p>
+ * <p>Copyright: Copyright (c) 2006</p>
+ * <p>Empresa: </p>
+ * @author sin atribuir
+ * @version 1.0
+ */
+
+public class Monedero {
+// Atributes
+private int dinero;
+// Metodes
+  public void meterDinero(int x){
+    if (x>0)
+      dinero+=x;
+}
+  public void sacarDinero(int x){
+    if (x<=dinero)
+      dinero-=x;
+    else
+      System.out.println("Fondos Insuficinetes");
+  }
+
+//Constructor
+  public Monedero(int n) {
+  dinero=n;
+  }
+
+}//class

@@ -1,0 +1,25 @@
+package hoja2ejercicio3;
+
+/**
+ * <p>Título: </p>
+ * <p>Descripción: </p>
+ * <p>Copyright: Copyright (c) 2006</p>
+ * <p>Empresa: </p>
+ * @author sin atribuir
+ * @version 1.0
+ */
+
+public class CuentaLaLetra {
+
+  private String cadena;
+  private char caracter;
+
+  public int CuentaLaLetra(char caracter,String cadena) {
+  int veces=0,n=0;
+
+  for (n=0;n<cadena.length();n++)
+    if (cadena.charAt(n)==caracter)
+      veces++;
+  return veces;
+  }
+}//class

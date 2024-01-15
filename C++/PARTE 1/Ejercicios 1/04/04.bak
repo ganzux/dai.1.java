@@ -1,0 +1,15 @@
+/*4.Programa que lea un nº y diga cuantos dígitos tiene*/
+#include<stdio.h>
+void main()
+{
+int num,longt=0;
+printf("Introduzca el numero\n");
+scanf("%d", &num);
+do
+{num=num/10;
+longt++;
+}
+while (num!=0);
+printf("la longitud de su numero es %d", longt);
+scanf("%d", &num);
+}

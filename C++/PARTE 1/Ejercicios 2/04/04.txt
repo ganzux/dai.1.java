@@ -1,0 +1,16 @@
+/*
+
+4.¿Cuál es el error del siguiente código?
+	¿Cómo lo solucionarías?
+
+if (x < y < z) 
+	printf(“%d < %d < %d”,x,y,z);
+
+
+
+MODO CORRECTO:                */
+
+
+
+if ((x < y) && (y < z))
+	printf("%d < %d < &d",x,y,z);

@@ -1,0 +1,27 @@
+package hoja1ejercicio8;
+
+/**
+ * <p>Título: </p>
+ * <p>Descripción: </p>
+ * <p>Copyright: Copyright (c) 2006</p>
+ * <p>Empresa: </p>
+ * @author sin atribuir
+ * @version 1.0
+ */
+
+public class ppal {
+
+  public static void main(String[] args) {
+
+    complejos a = new complejos(5, 9);
+    complejos b = new complejos(1, 3);
+
+    System.out.println("A: "+a.GetR()+" + "+a.GetI()+" i");
+    System.out.println("B: "+b.GetR()+" + "+b.GetI()+" i");
+
+    System.out.println("A + B = "+a.Suma(b).GetR()+" + "+a.Suma(b).GetI()+" i");
+    System.out.println("A - B = "+a.Resta(b).GetR()+" + "+a.Resta(b).GetI()+" i");
+    System.out.println("A * B = "+a.Producto(b).GetR()+" + "+a.Producto(b).GetI()+" i");
+    System.out.println("A / B = "+a.Cociente(b).GetR()+" + "+a.Cociente(b).GetI()+" i");
+  }
+}//class

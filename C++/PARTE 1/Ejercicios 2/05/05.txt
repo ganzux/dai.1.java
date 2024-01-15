@@ -1,0 +1,54 @@
+// 5.¿Cuál es la salida del siguiente fragmento de programa?
+
+
+int main()
+// Inicio del programa. Si se desea ejecutar, 
+// falta la cabecera de includes.
+{
+	int i,j;
+	i=1;
+// Declaramos 2 variables de modo entero: 'i' y 'j'.
+// A la variable 'i' le asignamos como valor 1.	
+	while (i*i < 10)
+// Bucle While que se repite mientras i*i sea menor a 10.
+	{
+// Damos a la variable 'j' el valor de i.
+		j=i;
+		while (j * j < 100)
+// Bucle While que se repite mientras j*j sea menor a 100.		
+		{
+// Escribimos i+j y multiplicamos j por 2:
+// i+j= (1+1)=2,(1+2)=3,(1+4)=5,(1+8)=9
+			printf(“%d”,i+j);
+			j*=2;
+		}
+		printf(“\n”);
+// Salto de línea y asignación a i de i + 1.
+		i++;
+	}
+}
+
+
+/* La salida del programa sería:
+
+2359
+4610
+69
+
+La primera línea corresponde a i=1; El bucle j, que comienza
+con el vaor de j=i=1 se hace 4 veces porque la cuarta vez se 
+fija el valor de j en 16, y 16^2>100, por lo que no se 
+ejecutará una quinta vez.
+
+La segunda línea corresponde a i=2; El bucle j, que comienza 
+con el valor de j=i=2 se hace 3 veces porque la tercera vez se 
+fija el valor de j en 16, no pudiendo ejecutar una cuarta vez
+el bucle.
+
+La tercera línea corresponde a i=3; El bucle j, que comienza
+con el valor de j=i=4, se hace 2 veces porque la segunda vez 
+se fija el valor de j en 16, no pudiendo repetir el bucle una 
+tercera vez.
+
+Como después del tercer "bucle i", i vale 4 e i^2 es 16, no
+se realizan más operaciones, terminando el programa. */

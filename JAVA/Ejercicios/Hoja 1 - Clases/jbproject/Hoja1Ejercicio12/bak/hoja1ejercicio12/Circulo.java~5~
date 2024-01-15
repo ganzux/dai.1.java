@@ -1,0 +1,60 @@
+/*12. Si (x1,y1), (x2,y2) y (x3,y3) son las coordenadas de tres puntos del plano,
+ entonces el siguiente fragmento de programa calcula el centro (x,y) y
+ el radio (r) de la circunferencia que pasa por ellos.
+ -------------------------------------------------------------------------------
+    double a = 2*(x2-x1);
+    double b = 2*(y2-y1);
+    double c = x1*x1+y1*y1-x2*x2-y2*y2;
+    double d = 2*(x3-x1);
+    double e = 2*(y3-y1);
+    double f = x1*x1+y1*y1-x3*x3-y3*y3;
+--------------------------------------------------------------------------------
+    y = (f*a-c*d)/(b*d-e*a);
+    x = -b/a*y-c/a;
+    r = Math.sqrt((x1-x)*(x1-x)+(y1-y)*(y1-y));
+--------------------------------------------------------------------------------
+Cree una clase llamada Circunferencia, que tenga como atributos las coordenadas
+ de su centro (x,y) y su radio (r), y con un constructor que tome como
+ argumentos las coordenadas de tres puntos por los que pase.  */
+
+package hoja1ejercicio12;
+import java.lang.*;
+/**
+ * <p>Título: </p>
+ * <p>Descripción: </p>
+ * <p>Copyright: Copyright (c) 2006</p>
+ * <p>Empresa: </p>
+ * @author sin atribuir
+ * @version 1.0
+ */
+
+public class Circulo {
+ // Attributes
+
+ private double centroX;
+ private double centroY;
+ private double radio;
+
+ // Contructor
+ public Circulo(double x1,double y1,double x2,double y2,double x3,double y3) {
+
+  double a = 2*(x2-x1);
+  double b = 2*(y2-y1);
+  double c = x1*x1+y1*y1-x2*x2-y2*y2;
+  double d = 2*(x3-x1);
+  double e = 2*(y3-y1);
+  double f = x1*x1+y1*y1-x3*x3-y3*y3;
+
+  centroY = (f*a-c*d)/(b*d-e*a);
+  centroX = -b/a*centroY-c/a;
+  radio = Math.sqrt((x1-centroX)*(x1-centroX)+(y1-centroY)*(y1-centroY));
+  }
+
+/* Redefina también el método toString para que represente las
+   circunferencias como Strings de la forma "<(x,y),r>" */
+
+public String toString (){
+  return "("+centroX+","+centroY+"), "+radio;
+}
+
+}

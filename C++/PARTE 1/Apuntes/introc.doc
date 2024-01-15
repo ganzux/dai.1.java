@@ -1,0 +1,169 @@
+{\rtf1\ansi\ansicpg1252\uc1 \deff0\deflang1033\deflangfe3082{\fonttbl{\f0\froman\fcharset0\fprq2{\*\panose 02020603050405020304}Times New Roman;}{\f1\fswiss\fcharset0\fprq2{\*\panose 020b0604020202020204}Arial;}}{\colortbl;\red0\green0\blue0;\red0\green0\blue255;\red0\green255\blue255;\red0\green255\blue0;\red255\green0\blue255;\red255\green0\blue0;\red255\green255\blue0;\red255\green255\blue255;\red0\green0\blue128;\red0\green128\blue128;\red0\green128\blue0;\red128\green0\blue128;\red128\green0\blue0;\red128\green128\blue0;\red128\green128\blue128;\red192\green192\blue192;}{\stylesheet{\nowidctlpar\widctlpar\adjustright \fs20\lang1034\cgrid \snext0 Normal;}{\*\cs10 \additive Default Paragraph Font;}}{\info{\title www}{\author Lucas}{\operator Lucas}{\creatim\yr1999\mo5\dy12\hr20\min17}{\revtim\yr1999\mo5\dy12\hr20\min17}{\version2}{\edmins0}{\nofpages5}{\nofwords1046}{\nofchars5963}{\*\company  }{\nofcharsws7322}{\vern73}}\margl1701\margr1701\margt1417\margb1417 \endnotes\aendnotes\aftnstart0\hyphhotz0\aftnnar\lytprtmet\hyphcaps0\viewkind1\viewscale100\pgbrdrhead\pgbrdrfoot \fet0\sectd \linex0\headery709\footery709\colsx709\endnhere\sectdefaultcl {\*\pnseclvl1\pnucrm\pnstart1\pnindent720\pnhang{\pntxta .}}{\*\pnseclvl2\pnucltr\pnstart1\pnindent720\pnhang{\pntxta .}}{\*\pnseclvl3\pndec\pnstart1\pnindent720\pnhang{\pntxta .}}{\*\pnseclvl4\pnlcltr\pnstart1\pnindent720\pnhang{\pntxta )}}{\*\pnseclvl5\pndec\pnstart1\pnindent720\pnhang{\pntxtb (}{\pntxta )}}{\*\pnseclvl6\pnlcltr\pnstart1\pnindent720\pnhang{\pntxtb (}{\pntxta )}}{\*\pnseclvl7\pnlcrm\pnstart1\pnindent720\pnhang{\pntxtb (}{\pntxta )}}{\*\pnseclvl8\pnlcltr\pnstart1\pnindent720\pnhang{\pntxtb (}{\pntxta )}}{\*\pnseclvl9\pnlcrm\pnstart1\pnindent720\pnhang{\pntxtb (}{\pntxta )}}\pard\plain \qc\nowidctlpar\widctlpar\adjustright \fs20\lang1034\cgrid {\b\f1\fs24\lang11274 www.monografias.com
+\par 
+\par }\pard \qc\nowidctlpar\widctlpar\adjustright {\b\f1\fs24\ul\lang11274 INTRODUCCIÓN AL LENGUAJE C
+\par }\pard \nowidctlpar\widctlpar\adjustright {\f1\lang11274 
+\par }\pard \nowidctlpar\widctlpar\adjustright {\f1\lang11274 EL lenguaje C es el resultado de un proceso de desarrollo que inició con un lenguaje denominado BCPL. Este influenció a otro llamado B (inventado por Ken Thompson). En los años 70; éste lenguaje llevó a la aparición del C. 
+\par }\pard \nowidctlpar\widctlpar\adjustright {\f1\lang11274 Con la popularidad de las microcomputadoras muchas compañias comenzarona implementar su propio C por lo cual surgieron discrepancias entre sí. 
+\par }\pard \nowidctlpar\widctlpar\adjustright {\f1\lang11274 Por esta razón ANSI (American National Standars Institute, por sus siglas en inglés), estableció un comité en 1983 para crear una definición no ambigüa del lenguaje C e independiente de la máquina que pudiera utilizarse en todos los tipos de C. 
+\par }\pard \nowidctlpar\widctlpar\adjustright {\f1\lang11274 Algunos de las C existentes son: 
+\par }\pard \nowidctlpar\widctlpar\adjustright {\f1\lang11274 -Quick C 
+\par }\pard \nowidctlpar\widctlpar\adjustright {\f1\lang11274 -C++ 
+\par }\pard \nowidctlpar\widctlpar\adjustright {\f1\lang11274 -Turbo C 
+\par }\pard \nowidctlpar\widctlpar\adjustright {\f1\lang11274 -Turbo C ++ 
+\par }\pard \nowidctlpar\widctlpar\adjustright {\f1\lang11274 -Borland C 
+\par }\pard \nowidctlpar\widctlpar\adjustright {\f1\lang11274 -Borland C++ 
+\par }\pard \nowidctlpar\widctlpar\adjustright {\f1\lang11274 -Microsoft C 
+\par }\pard \nowidctlpar\widctlpar\adjustright {\f1\lang11274 -etc. 
+\par }\pard \nowidctlpar\widctlpar\adjustright {\f1\lang11274 Este manual se basa en el C estandar el cual puede utilizarse en todos los tipos de C. 
+\par }\pard \nowidctlpar\widctlpar\adjustright {\f1\lang11274 C es un lenguaje de programación de nivel medio ya que combina los elementos del lenguaje de alto nivel con la funcionalidad del ensamblador. 
+\par }\pard \nowidctlpar\widctlpar\adjustright {\f1\lang11274 Su característica principal es ser portable,es decir,es posible adaptar los programas escritos para un tipo de computadora en otra. 
+\par }\pard \nowidctlpar\widctlpar\adjustright {\f1\lang11274 Otra de sus características principales es el ser esctructurado, es decir, el programa se divide en módulos (funciones) independientes entre sí. 
+\par }\pard \nowidctlpar\widctlpar\adjustright {\f1\lang11274 El lenguaje C inicialmente fué creado para la programación de 
+\par }\pard \nowidctlpar\widctlpar\adjustright {\f1\lang11274 -Sistemas operativos 
+\par }\pard \nowidctlpar\widctlpar\adjustright {\f1\lang11274 -Intérpretes 
+\par }\pard \nowidctlpar\widctlpar\adjustright {\f1\lang11274 -Editores 
+\par }\pard \nowidctlpar\widctlpar\adjustright {\f1\lang11274 -Ensambladores 
+\par }\pard \nowidctlpar\widctlpar\adjustright {\f1\lang11274 -Compiladores 
+\par }\pard \nowidctlpar\widctlpar\adjustright {\f1\lang11274 -Administradores de bases de datos. 
+\par }\pard \nowidctlpar\widctlpar\adjustright {\f1\lang11274 Actualmente, debido a sus caraterísticas, puede ser utilizado paratodo tipo de programas. 
+\par }\pard \qc\nowidctlpar\widctlpar\adjustright {\f1\lang11274 
+\par }\pard \qc\nowidctlpar\widctlpar\adjustright {\f1\fs24\lang11274 
+\par }\pard \nowidctlpar\widctlpar\adjustright {\f1\fs24\lang11274 
+\par }\pard \nowidctlpar\widctlpar\adjustright {\b\f1\fs24\lang11274 ELEMENTOS GENERALES DE UN PROGRAMA EN C }{\b\f1\fs24\lang11274 
+\par }\pard \nowidctlpar\widctlpar\adjustright {\b\f1\fs24\lang11274 
+\par }\pard \nowidctlpar\widctlpar\adjustright {\f1\fs24\lang11274 Aunque cada uno de los programas son distintos, todos tienen características comunes. Los elementos de un programa en C son los siguientes: 
+\par }\pard \nowidctlpar\widctlpar\adjustright {\i\f1\fs24\cf1\lang11274 Comentarios}{\f1\fs24\lang11274  
+\par }\pard \nowidctlpar\widctlpar\adjustright {\i\f1\fs24\cf1\lang11274 Inclusión de archivos}{\f1\fs24\lang11274  
+\par }\pard \nowidctlpar\widctlpar\adjustright {\i\f1\fs24\cf1\lang11274 main()}{\f1\fs24\lang11274  
+\par }\pard \nowidctlpar\widctlpar\adjustright {\i\f1\fs24\cf1\lang11274 \{}{\f1\fs24\lang11274  
+\par }{\i\f1\fs24\cf1\lang11274 variables locales}{\f1\fs24\lang11274  
+\par }{\i\f1\fs24\cf1\lang11274 flujo de sentencias}{\f1\fs24\lang11274  
+\par }\pard \nowidctlpar\widctlpar\adjustright {\i\f1\fs24\cf1\lang11274 \}}{\f1\fs24\lang11274  
+\par }\pard \nowidctlpar\widctlpar\adjustright {\i\f1\fs24\cf1\lang11274 Definición de funciones creadas por el programador utilizadas en main()}{\f1\fs24\lang11274  
+\par }\pard \nowidctlpar\widctlpar\adjustright {\f1\fs24\lang11274 Veamos en que consiste cada uno: 
+\par }\pard \nowidctlpar\widctlpar\adjustright {\b\f1\fs24\lang11274 Comentarios:}{\f1\fs24\lang11274 Se identifican porque van entre diagonales y asterisco.Nos sirve para escribir información que nos referencie al programa pero que no forme parte de él. Por ejemplo especificar que hace elprograma, quien lo elaboró, en que fecha, que versión es, etc. 
+\par }\pard \nowidctlpar\widctlpar\adjustright {\b\f1\fs24\lang11274 Inclusión de archivos: }{\f1\fs24\lang11274 Consiste en mandar llamar a la o las bibliotecas donde se encuentran definidas las funciones de C (instrucciones) que estamos utilizando en el programa. 
+\par }\pard \nowidctlpar\widctlpar\adjustright {\f1\fs24\lang11274 En realidad, la inclusión de archivos no forma parte de la estructura propia de un programa sino que pertenece al desarrollo integrado de C. Se incluye aquí para que el alumno no olvide que debe mandar llamar a los archivos donde se encuentran definidas las funciones estandar que va a utilizar. 
+\par }\pard \nowidctlpar\widctlpar\adjustright {\b\f1\fs24\lang11274 main(): }{\f1\fs24\lang11274 En C, todo está constituido a base de funciones. El programa principal no es la excepción. main() indica el comienzo de la función principal del programa la cual se delimita con llaves. 
+\par }\pard \nowidctlpar\widctlpar\adjustright {\b\f1\fs24\lang11274 Variables locales:}{\f1\fs24\lang11274  Antes de realizar alguna operación en el programa, se deben declarar la(s) variable(s) que se utilizarán en el programa. 
+\par }\pard \nowidctlpar\widctlpar\adjustright {\b\f1\fs24\lang11274 Flujo de sentencias: }{\f1\fs24\lang11274 Es la declaración de todas las instrucciones que conforman el programa. 
+\par }\pard \nowidctlpar\widctlpar\adjustright {\b\f1\fs24\lang11274 Definición de funciones creadas por el programador utilizadas enmain():}{\f1\fs24\lang11274  Finalmente,se procede a definir el contenido de las funciones utilizadas dentro de main(). Estas contienen los mismos elementos que la función principal. 
+\par }\pard \nowidctlpar\widctlpar\adjustright {\f1\fs24\lang11274 Para ejecutarlo, realice los siguientes pasos: 
+\par }\pard \nowidctlpar\widctlpar\adjustright {\b\f1\fs24\lang11274 *}{\f1\fs24\lang11274  Oprima la tecla }{\b\f1\fs24\lang11274 F10}{\f1\fs24\lang11274  y seleccione la opción }{\b\f1\fs24\lang11274 File}{\f1\fs24\lang11274 .Posicionese en }{\b\f1\fs24\lang11274 Open }{\f1\fs24\lang11274 y pulse enter. 
+\par }\pard \nowidctlpar\widctlpar\adjustright {\b\f1\fs24\lang11274 *}{\f1\fs24\lang11274  Escriba el nombre del archivo donde va a guardar su programa,que no exceda de ocho letras. Automáticamente se le agregará la terminación .c .Digite}{\b\f1\fs24\lang11274 <ENTER>}{\f1\fs24\lang11274 . 
+\par }\pard \nowidctlpar\widctlpar\adjustright {\b\f1\fs24\lang11274 *}{\f1\fs24\lang11274 Transcriba el programa. 
+\par }\pard \nowidctlpar\widctlpar\adjustright {\b\f1\fs24\lang11274 Importante: 
+\par }\pard \nowidctlpar\widctlpar\adjustright {\f1\fs24\lang11274 Después de cada asignación o función es imprecindible colocar un punto y coma (;) ya que éste es un terminador de proposiciones. En caso de que no se escriba, se marcará un error a la hora de compilar el programa. 
+\par }\pard \nowidctlpar\widctlpar\adjustright {\f1\fs24\lang11274 En C, los comandos deben ser escritos con letras minúsculas, tal como se ha hecho en este programa ejemplo. En el caso de las variables o la funciones definidas por el usuario la situación es similar: 
+\par }\pard \nowidctlpar\widctlpar\adjustright {\f1\fs24\lang11274 no es lo mismo 
+\par }\pard \nowidctlpar\widctlpar\adjustright {\i\f1\fs24\lang11274 Apellido }{\f1\fs24\lang11274 que 
+\par }\pard \nowidctlpar\widctlpar\adjustright {\i\f1\fs24\lang11274 apellido}{\f1\fs24\lang11274  que 
+\par }\pard \nowidctlpar\widctlpar\adjustright {\i\f1\fs24\lang11274 APELLIDO}{\f1\fs24\lang11274  
+\par }\pard \nowidctlpar\widctlpar\adjustright {\f1\fs24\lang11274 Aunque para nosotros es lo mismo, el compilador de C, los toma como tres nombres distintos. Por tanto, asegúrese de mandar llamar las variables o funciones exactamente de la misma forma en que las declaró. 
+\par }\pard \nowidctlpar\widctlpar\adjustright {\f1\fs24\lang11274 Después de que el programa se encuentra en la ventana activa de edición, procedamos a compilarlo: 
+\par }\pard \nowidctlpar\widctlpar\adjustright {\b\f1\fs24\lang11274 *}{\f1\fs24\lang11274 Presione la tecla }{\b\f1\fs24\lang11274 F10}{\f1\fs24\lang11274 , escoja el submenú}{\b\f1\fs24\lang11274 Compile}{\f1\fs24\lang11274 . Escoja la opción }{\b\f1\fs24\lang11274 Compile}{\f1\fs24\lang11274 . 
+\par }\pard \nowidctlpar\widctlpar\adjustright {\f1\fs24\lang11274 Si su programa presenta errores, puede presionar la tecla }{\b\f1\fs24\lang11274 F1}{\f1\fs24\lang11274  
+\par }\pard \nowidctlpar\widctlpar\adjustright {\f1\fs24\lang11274 para saber las posibles causas del error. Corríjalos y vuelvalo acompilar hasta que hasta que la compilación sea exitosa. 
+\par }\pard \nowidctlpar\widctlpar\adjustright {\f1\fs24\lang11274 Los warnings (advertencias) indican posibles errores en la estructura del programa. Si usted está seguro de que su programa está correcto, ignórelos. No le causarán problemas a la hora de correrlo aunque lo ideal sería que no las hubiera. 
+\par }\pard \nowidctlpar\widctlpar\adjustright {\f1\fs24\lang11274 Si no se encontraron errores, proceda a ejecutarlo: 
+\par }\pard \nowidctlpar\widctlpar\adjustright {\f1\fs24\lang11274 - Escoja el submenú }{\b\f1\fs24\lang11274 Run}{\f1\fs24\lang11274 . 
+\par }\pard \nowidctlpar\widctlpar\adjustright {\f1\fs24\lang11274 -Presione }{\b\f1\fs24\lang11274 <ENTER>}{\f1\fs24\lang11274  en la opción }{\b\f1\fs24\lang11274 RUN}{\f1\fs24\lang11274  
+\par }\pard \qc\nowidctlpar\widctlpar\adjustright {\b\f1\fs24\lang11274 AUTOEVALUACIÓN}{\f1\fs24\lang11274  
+\par }\pard \nowidctlpar\widctlpar\adjustright {\b\f1\fs24\lang11274 1. }{\f1\fs24\lang11274 ¿Qué es C? 
+\par }{\b\f1\fs24\lang11274 2.}{\f1\fs24\lang11274  ¿Cómo creamos un archivo? 
+\par }\pard \nowidctlpar\widctlpar\adjustright {\b\f1\fs24\lang11274 3. }{\f1\fs24\lang11274 En un programa en C, ¿qué significa main()? 
+\par }\pard \nowidctlpar\widctlpar\adjustright {\b\f1\fs24\lang11274 4.}{\f1\fs24\lang11274  ¿Qué función desempeña <conio.h>en el programa? 
+\par }\pard \nowidctlpar\widctlpar\adjustright {\b\f1\fs24\lang11274 5.}{\f1\fs24\lang11274  ¿Para qué sirven la llave abierta y la llave cerrada\{\} 
+\par }\pard \nowidctlpar\widctlpar\adjustright {\b\f1\fs24\lang11274 6.}{\f1\fs24\lang11274  ¿Cómo se compila el programa? 
+\par }\pard \nowidctlpar\widctlpar\adjustright {\b\f1\fs24\lang11274 7.}{\f1\fs24\lang11274  ¿Cómo ejecutamos un programa? 
+\par }\pard \nowidctlpar\widctlpar\adjustright {\b\f1\fs24\lang11274 8.}{\f1\fs24\lang11274  Captura y ejecuta los programas que se muestran a continuación: 
+\par }\pard \nowidctlpar\widctlpar\adjustright {\b\f1\fs24\lang11274 a)}{\f1\fs24\lang11274 /*Programa que despliega un mensaje de bienvenida en la pantalla*/ 
+\par }\pard \nowidctlpar\widctlpar\adjustright {\f1\fs24\lang11274 #include<stdio.h> 
+\par }\pard \nowidctlpar\widctlpar\adjustright {\f1\fs24\lang11274 #include<conio.h> 
+\par }\pard \nowidctlpar\widctlpar\adjustright {\f1\fs24\lang11274 void main() 
+\par }\pard \nowidctlpar\widctlpar\adjustright {\f1\fs24\lang11274 \{ 
+\par }\pard \nowidctlpar\widctlpar\adjustright {\f1\fs24\lang11274 clrscr(); 
+\par }\pard \nowidctlpar\widctlpar\adjustright {\f1\fs24\lang11274 gotoxy(20,10); 
+\par }\pard \nowidctlpar\widctlpar\adjustright {\f1\fs24\lang11274 printf("BIENVENIDO AL CURSO DE C ESTANDAR"); 
+\par }\pard \nowidctlpar\widctlpar\adjustright {\f1\fs24\lang11274 delay(2500); 
+\par }\pard \nowidctlpar\widctlpar\adjustright {\f1\fs24\lang11274 \} 
+\par }\pard \nowidctlpar\widctlpar\adjustright {\b\f1\fs24\lang11274 b)}{\f1\fs24\lang11274  /*Programa que calcula el número de dias vividos*/ 
+\par }\pard \nowidctlpar\widctlpar\adjustright {\f1\fs24\lang11274 #include<stdio.h> 
+\par }\pard \nowidctlpar\widctlpar\adjustright {\f1\fs24\lang11274 #include<conio.h> 
+\par }\pard \nowidctlpar\widctlpar\adjustright {\f1\fs24\lang11274 void main() 
+\par }\pard \nowidctlpar\widctlpar\adjustright {\f1\fs24\lang11274 \{ 
+\par }\pard \nowidctlpar\widctlpar\adjustright {\f1\fs24\lang11274 char nombre[50]; 
+\par }\pard \nowidctlpar\widctlpar\adjustright {\f1\fs24\lang11274 int edad; 
+\par }\pard \nowidctlpar\widctlpar\adjustright {\f1\fs24\lang11274 clrscr(); 
+\par }\pard \nowidctlpar\widctlpar\adjustright {\f1\fs24\lang11274 printf("¿Cómo te llamas?\\n "); 
+\par }\pard \nowidctlpar\widctlpar\adjustright {\f1\fs24\lang11274 scanf("%s",nombre); 
+\par }\pard \nowidctlpar\widctlpar\adjustright {\f1\fs24\lang11274 printf("¿Cuántos años tienes?\\n"); 
+\par }\pard \nowidctlpar\widctlpar\adjustright {\f1\fs24\lang11274 scanf("%i",&edad); 
+\par }\pard \nowidctlpar\widctlpar\adjustright {\f1\fs24\lang11274 edad=edad*365; 
+\par }\pard \nowidctlpar\widctlpar\adjustright {\f1\fs24\lang11274 gotoxy(5,10); 
+\par }\pard \nowidctlpar\widctlpar\adjustright {\f1\fs24\lang11274 printf("%s, has vivido %i dias",nombre,edad); 
+\par }\pard \nowidctlpar\widctlpar\adjustright {\f1\fs24\lang11274 gotoxy(40,22); 
+\par }\pard \nowidctlpar\widctlpar\adjustright {\f1\fs24\lang11274 printf("Pulsa cualquier tecla para terminar..."); 
+\par }\pard \nowidctlpar\widctlpar\adjustright {\f1\fs24\lang11274 getch(); 
+\par }\pard \nowidctlpar\widctlpar\adjustright {\f1\fs24\lang11274 \} 
+\par }\pard \nowidctlpar\widctlpar\adjustright {\b\f1\fs24\lang11274 c) }{\f1\fs24\lang11274 /*Programa que saca el promedio de 3 números*/ 
+\par }\pard \nowidctlpar\widctlpar\adjustright {\f1\fs24\lang11274 #include<stdio.h> 
+\par }\pard \nowidctlpar\widctlpar\adjustright {\f1\fs24\lang11274 #include<conio.h> 
+\par }\pard \nowidctlpar\widctlpar\adjustright {\f1\fs24\lang11274 void main() 
+\par }\pard \nowidctlpar\widctlpar\adjustright {\f1\fs24\lang11274 \{ 
+\par }\pard \nowidctlpar\widctlpar\adjustright {\f1\fs24\lang11274 float numero; 
+\par }\pard \nowidctlpar\widctlpar\adjustright {\f1\fs24\lang11274 float promedio=0; 
+\par }\pard \nowidctlpar\widctlpar\adjustright {\f1\fs24\lang11274 clrscr(); 
+\par }\pard \nowidctlpar\widctlpar\adjustright {\f1\fs24\lang11274 printf("Dame el primer número: "); 
+\par }\pard \nowidctlpar\widctlpar\adjustright {\f1\fs24\lang11274 scanf("%f",&numero); 
+\par }\pard \nowidctlpar\widctlpar\adjustright {\f1\fs24\lang11274 promedio+=numero; 
+\par }\pard \nowidctlpar\widctlpar\adjustright {\f1\fs24\lang11274 printf("Dame el segundo número: "); 
+\par }\pard \nowidctlpar\widctlpar\adjustright {\f1\fs24\lang11274 scanf("%f",&numero); 
+\par }\pard \nowidctlpar\widctlpar\adjustright {\f1\fs24\lang11274 promedio+=numero; 
+\par }\pard \nowidctlpar\widctlpar\adjustright {\f1\fs24\lang11274 printf("Dame el tercer número: "); 
+\par }\pard \nowidctlpar\widctlpar\adjustright {\f1\fs24\lang11274 scanf("%f",&numero); 
+\par }\pard \nowidctlpar\widctlpar\adjustright {\f1\fs24\lang11274 promedio+=numero; 
+\par }\pard \nowidctlpar\widctlpar\adjustright {\f1\fs24\lang11274 promedio=promedio/3; 
+\par }\pard \nowidctlpar\widctlpar\adjustright {\f1\fs24\lang11274 printf("El promedio es %f",promedio); 
+\par }\pard \nowidctlpar\widctlpar\adjustright {\f1\fs24\lang11274 gotoxy(40,22); 
+\par }\pard \nowidctlpar\widctlpar\adjustright {\f1\fs24\lang11274 printf("Presione cualquier tecla para terminar..."); 
+\par }\pard \nowidctlpar\widctlpar\adjustright {\f1\fs24\lang11274 getch(); 
+\par }\pard \nowidctlpar\widctlpar\adjustright {\f1\fs24\lang11274 \} 
+\par }\pard \nowidctlpar\widctlpar\adjustright {\b\f1\fs24\lang11274 d)}{\f1\fs24\lang11274  /*Programa que convierte un número decimal entero a octal*/ 
+\par }\pard \nowidctlpar\widctlpar\adjustright {\f1\fs24\lang11274 #include<stdio.h> 
+\par }\pard \nowidctlpar\widctlpar\adjustright {\f1\fs24\lang11274 #include<conio.h> 
+\par }\pard \nowidctlpar\widctlpar\adjustright {\f1\fs24\lang11274 void main() 
+\par }\pard \nowidctlpar\widctlpar\adjustright {\f1\fs24\lang11274 \{ 
+\par }\pard \nowidctlpar\widctlpar\adjustright {\f1\fs24\lang11274 int numero; 
+\par clrscr(); 
+\par printf("Numero entero en decimal: "); 
+\par scanf("%i", &numero); 
+\par printf("\\n\\nSu representacion en octal es %o"); 
+\par gotoxy(40,22); 
+\par printf("Presione cualquier tecla para terminar..."); 
+\par getch(); 
+\par \} 
+\par }{\b\f1\fs24\lang11274 e)}{\f1\fs24\lang11274  /*Programa que manda un mensaje de advertencia*/ 
+\par #include <dos.h> 
+\par }\pard \nowidctlpar\widctlpar\adjustright {\f1\fs24\lang11274 #include<conio.h> 
+\par }\pard \nowidctlpar\widctlpar\adjustright {\f1\fs24\lang11274 int main(void) 
+\par }\pard \nowidctlpar\widctlpar\adjustright {\f1\fs24\lang11274 \{ 
+\par }\pard \nowidctlpar\widctlpar\adjustright {\f1\fs24\lang11274 clrscr(); 
+\par }\pard \nowidctlpar\widctlpar\adjustright {\f1\fs24\lang11274 gotoxy(28,11); 
+\par }\pard \nowidctlpar\widctlpar\adjustright {\f1\fs24\lang11274 printf("¡ P E L I G R O ! "); 
+\par }\pard \nowidctlpar\widctlpar\adjustright {\f1\fs24\lang11274 sound(250); 
+\par }\pard \nowidctlpar\widctlpar\adjustright {\f1\fs24\lang11274 delay(600); 
+\par }\pard \nowidctlpar\widctlpar\adjustright {\f1\fs24\lang11274 sound(80); 
+\par }\pard \nowidctlpar\widctlpar\adjustright {\f1\fs24\lang11274 delay(600); 
+\par }\pard \nowidctlpar\widctlpar\adjustright {\f1\fs24\lang11274 delay(600); 
+\par }\pard \nowidctlpar\widctlpar\adjustright {\f1\fs24\lang11274 nosound(); 
+\par }\pard \nowidctlpar\widctlpar\adjustright {\f1\fs24\lang11274 return 0; 
+\par }\pard \nowidctlpar\widctlpar\adjustright {\f1\fs24\lang11274 \} 
+\par }\pard \qc\nowidctlpar\widctlpar\adjustright {\f1\fs24\lang11274 
+\par }\pard \nowidctlpar\widctlpar\adjustright {\f1\lang11274 
+\par 
+\par 
+\par Trabajo realizado por:
+\par Roman
+\par }\pard \nowidctlpar\widctlpar\adjustright {\f1\lang11274 tlbk0065@telebrokers.com.ar}{\lang11274 
+\par }}

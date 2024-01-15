@@ -1,0 +1,22 @@
+package hoja1ejercicio4;
+
+/**
+ * <p>Título: </p>
+ * <p>Descripción: </p>
+ * <p>Copyright: Copyright (c) 2006</p>
+ * <p>Empresa: </p>
+ * @author sin atribuir
+ * @version 1.0
+ */
+
+public class ppal {
+
+public static void main(String[] args) {
+
+circulo micirculo = new circulo(1);
+
+System.out.println("El Area de un circulo de radio"++" es "+);
+
+  }
+
+}

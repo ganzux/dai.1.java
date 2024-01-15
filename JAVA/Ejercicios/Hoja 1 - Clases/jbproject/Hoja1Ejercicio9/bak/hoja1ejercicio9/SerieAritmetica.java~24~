@@ -1,0 +1,69 @@
+/* 9. Defina una clase que permita representar una serie aritmética;
+ una serie aritmética viene caracterizada por el primer elemento de la serie
+ y el incremento o diferencia entre dos elementos sucesivos de la serie.
+
+ Implemente un método en esta clase que permita calcular la suma de los n
+ primeros elementos de la serie (utilice un bucle para realizar esta operación). */
+
+package hoja1ejercicio9;
+
+/**
+ * <p>Título: </p>
+ * <p>Descripción: </p>
+ * <p>Copyright: Copyright (c) 2006</p>
+ * <p>Empresa: </p>
+ * @author sin atribuir
+ * @version 1.0
+ */
+
+public class SerieAritmetica {
+// Atributes
+  private int primerelemento;
+  private int incremento;
+// Metodes
+
+  //Getters And Setters
+  public int getPrimerElemento(){
+    return primerelemento;
+  }
+
+  public int getIncremento(){
+    return incremento;
+  }
+
+  public void setPrimerElementro(int value){
+    primerelemento=value;
+  }
+
+  public void setIncremento(int value){
+    incremento=value;
+  }
+// End of getters and setters
+
+// General term of the arithmetic sucesion
+
+  private int sucesionEnN(int primero, int n, int incremento){
+    return (primero+(n*incremento));
+  }
+
+  public int sumaNPrimerosElementos(int primerelemento, int incremento, int n){
+    int resultado=0,i;
+
+    if (n%2==0) // Si es par
+      resultado=(primerelemento+sucesionEnN(primerelemento,n,incremento))*(n/2);
+    return resultado;
+  }
+
+  public escribeLaSucesion(int primero, int n, int incremento){
+    int i=0;
+    for (i=1;i<n;i++){
+      System.out.println("Elemento "+i+": "+);
+    }
+  }
+
+//Constructor
+  public SerieAritmetica(int primero, int incremento) {
+  primerelemento=primero;
+  this.incremento=incremento;
+  }
+}//class
